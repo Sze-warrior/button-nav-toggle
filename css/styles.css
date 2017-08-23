@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica-neue", "Helvetica", "Arial", "TImes new roman"; }
+
+p {
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+a {
+  text-decoration: none;
+  color: #446CB3; }
+
+.container {
+  max-width: 960px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0; }
+
+.row {
+  padding: 15px 0px;
+  width: 100%;
+  float: left; }
+
+.btns-container {
+  min-height: 250px; }
+
+.btn-nav-content {
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-left: 10px; }
+  .btn-nav-content .hidden {
+    display: none; }
+  .btn-nav-content .visible {
+    display: block; }
+
+.btn-nav-container {
+  width: 98%;
+  height: 40px;
+  border: 1px solid #446CB3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+  padding: 0;
+  margin: 0 auto; }
+
+.btn-nav {
+  list-style-type: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-right: 1px solid #446CB3;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s; }
+  .btn-nav:last-child {
+    border-right: 0; }
+  .btn-nav:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #2f4b7c;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-right: #2f4b7c; }
+
+.btn-active {
+  background-color: #446CB3;
+  color: white; }
+
+.hide{
+  display: none;
+}
+
+.display{
+  display: block;
+}
+
+.famous{
+    width: 200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-nav-container {
+    width: 92%;
+    margin: 0px auto; } }
+
+.centered {
+  text-align: center; }
